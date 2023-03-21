@@ -1,5 +1,6 @@
 {
   "name": "react-boilerplate",
+  "homepage": "http://khuteshubh.github.io/Amazon-Clone---React-Project---igyikvmlrqc0",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,8 +13,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "gh-pages": "^5.0.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-currency-format": "^1.1.0",
+    "react-dom": "^16.13.1",
+    "react-icons": "^4.8.0"
   },
   "jest": {
     "moduleNameMapper": {
@@ -39,6 +45,8 @@
     "css-loader": "^4.3.0",
     "file-loader": "6.2.0",
     "html-webpack-plugin": "^4.5.0",
+    "react-router-dom": "^6.9.0",
+    "react-scripts": "^5.0.1",
     "style-loader": "^1.2.1",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
