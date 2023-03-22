@@ -1,7 +1,7 @@
 import React from 'react';
 import { FcLike } from "react-icons/fc";
 import { BsCurrencyRupee } from "react-icons/bs";
-import "./Product.css"
+import "./Product.css";
 import { useStateValue } from './StateProvider';
 
 function Product({id,title,price,rating,image}) {
