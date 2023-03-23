@@ -1,11 +1,9 @@
 {
   "name": "react-boilerplate",
-  
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    
     "test": "cypress run  --headless --reporter mochawesome",
     "start": "webpack-dev-server --mode development --watch --open --hot --port=3000",
     "build": "webpack --mode production"
@@ -16,6 +14,8 @@
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@material-ui/icons": "^4.11.3",
+    "firebase": "^9.18.0",
+    "gh-pages": "^5.0.0",
     "react": "^16.13.1",
     "react-currency-format": "^1.1.0",
     "react-dom": "^16.13.1",

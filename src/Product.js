@@ -24,20 +24,20 @@ function Product({id,title,price,rating,image}) {
   return (
     <div className="product">
         <div className='product_info'>
-            <p>{title}</p>
-            <p className="product_price">
+            <span className='productinfo_title'>{title}</span><br/>
+            <span className="product_price">
                 <small><BsCurrencyRupee/></small>
                 <strong>{price}</strong>
-            </p>
-            <p className="product_rating">
+            </span>
+            <span className="product_rating">
                 {
                    Array(rating)
                    .fill()
                    .map((_) =>(
-                   <p><FcLike/></p>
+                   <span><FcLike/></span>
                    ))
                 }
-            </p>
+            </span>
 
         </div>
         

@@ -5,13 +5,19 @@
 }
 .home_row{
     
-    /* display:grid;
-    grid-template-columns: repeat(3, 1fr); */
-    justify-content: center;
-    margin-bottom: 30px; 
+    display:grid;
     
-    display: flex; 
-     z-index: 1;
+    grid-template-columns: repeat(3,1fr);
+    
+    grid-auto-flow: row;
+
+    column-gap: 10px;
+    /* justify-content: center; */
+    margin-bottom: 30px; 
+    margin-top: 12px;
+    /* display: flex; 
+    flex-wrap: row; */
+    /* z-index: 1; */
     margin-left: 5px;
     margin-right: 5px; 
 }
